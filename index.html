@@ -1,1 +1,79 @@
-Hello cheip!
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@469&display=swap" rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font: 400 15px/1.8 'Oswald', sans-serif;
+            color: #777;
+        }
+
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            position: relative;
+            opacity: 0.65;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .bgimg-1 {
+            background-image: url("images/me.jpg");
+            height: 100%;
+        }
+
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+
+        @media only screen and (max-width: 406px) {
+            .caption span.border {
+                background-color: #111;
+                color: #fff;
+                padding: 5px;
+                font-size: 25px;
+                letter-spacing: 10px;
+            }
+        }
+
+        @media only screen and (min-width: 406px) {
+            .caption span.border {
+                background-color: #111;
+                color: #fff;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 10px;
+            }
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bgimg-1">
+        <div class="caption">
+            <a href="https://about.me/simone.capodicasa" target="_blank">
+                <span class="border">SIMONE CAPODICASA</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
