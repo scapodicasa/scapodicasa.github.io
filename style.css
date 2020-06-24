@@ -1,0 +1,59 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 'Oswald';
+    color: black;
+}
+
+.background {
+    position: center;
+    background-image: url("images/me.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.65;
+}
+
+.principal {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 44%;
+    width: 100%;
+}
+
+.content, .title, .social {
+    margin-top: 1.2rem;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.name {
+    padding: 1.2rem 1.1rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    font-size: 25px;
+    letter-spacing: 0.45rem;
+}
+
+.social {
+    font-size: 42px;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
