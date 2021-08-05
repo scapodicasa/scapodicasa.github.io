@@ -53,6 +53,11 @@ html {
     font-size: 40px;
 }
 
+.projectlogo {
+    max-width: 250px;
+    height: auto;
+}
+
 a {
     color: white;
 }
