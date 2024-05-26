@@ -7,3 +7,11 @@ title = 'Simone Capodicasa'
     path = 'graysx'
 
 theme = 'graysx'
+
+[params]
+
+    # Socials
+    twitter = "#"
+    facebook = "https://www.facebook.com/homechief/"
+    github = "#"
+    instagram = "https://www.instagram.com/cheip/"
