@@ -1,0 +1,50 @@
+# Main Title
+main:
+  header:
+    title : "Simone Capodicasa" # Title Text
+    description : "Irish flute and uilleann pipes player." # Title Desc
+    button:
+      text: "Learn More" # Button Text
+      url: "#about" # Button URL
+
+# About
+about:
+  title: "About me"
+  desc: "
+        Bewitched by the sound of the flute during childhood, he studied clssical concert flute.
+        When he was sixteen something happened: he saw a live show by The Chieftains, and that changed his musical point of view.
+        During the yesrs Simone deepens the study of wooden flute and the specific techiques and style of Irish music.
+        In recent times he also added the Uilleann Pipes to his skillset becoming a wide range musician XXX.
+  "
+  button:
+    enable: false
+    text: "Button"
+    url: "#"
+  # image: "assets/img/bg-masthead.jpg"
+
+projects:
+  # card1:
+  #   title: "Simone"
+  #   text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+  #   img: "assets/img/bg-masthead.jpg"
+  card1:
+    title: "Duilleoga"
+    text: "Simone, Joan and Simone, despite their young age, are musicians involved in heterogeneous musical projects. They decided to merge their experiences and propose Duilleoga: a sparkling Irish folk trio that transports tradition to the present day by giving it a personal and modern touch."
+    img: "assets/img/duilleoga.jpg"
+    link:
+      text: "More info"
+      url: "http://www.duilleoga.it"
+  card2:
+    title: "The Cracking Reeds"
+    text: "The Cracking Reeds blends traditional Irish music with rock and pop influences. Their repertoire will bring you on a journey along the Emerald Isle and will make you dance to wild rhythms and sing timeless songs at the top of your lungs."
+    img: "assets/img/tcr.jpg"
+    link:
+      text: "More info"
+      url: "https://www.thecrackingreeds.band"
+  card3:
+    title: "Bards from Yesterday"
+    text: "Bards From Yesterday is a storming young folk rock band which, winking at the new trends of Scottish and Irish New Trad, is considered as one of the most prepared bands on the Italian scene."
+    img: "assets/img/bfy.jpg"
+    link:
+      text: "More info"
+      url: "https://bardsfromyesterday.weebly.com/"

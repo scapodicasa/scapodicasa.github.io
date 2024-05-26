@@ -1,0 +1,9 @@
+baseURL = 'https://cheip.dev/'
+languageCode = 'en-us'
+title = 'Simone Capodicasa'
+
+[module]
+[[module.imports]]
+    path = 'graysx'
+
+theme = 'graysx'
