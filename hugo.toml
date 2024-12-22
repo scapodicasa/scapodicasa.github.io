@@ -15,3 +15,27 @@ theme = 'graysx'
     facebook = "https://www.facebook.com/homechief/"
     github = "#"
     instagram = "https://www.instagram.com/cheip/"
+
+
+## Menu Items
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  URL = "#"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Projects"
+  URL = "#projects"
+  weight = 3
+
+  [[menu.main]]
+  name = "Gear"
+  URL = "#gear"
+  weight = 4

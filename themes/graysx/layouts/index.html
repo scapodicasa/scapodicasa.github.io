@@ -109,6 +109,22 @@
             </div>
         </section>
         {{ end }}
+
+        {{ with site.Data.homepage.gear }}
+        <section class="bg-light" id="gear">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>{{ .featured.title }}</h4>
+                            <p class="text-black-50 mb-0">{{ range .featured.items }} <p>{{ .text }}</p> {{ end }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{ end }}
         <!-- Signup-->
         <!-- <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">

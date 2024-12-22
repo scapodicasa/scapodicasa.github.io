@@ -29,7 +29,11 @@ projects:
   #   img: "assets/img/bg-masthead.jpg"
   card1:
     title: "Duilleoga"
-    text: "Simone, Joan and Simone, despite their young age, are musicians involved in heterogeneous musical projects. They decided to merge their experiences and propose Duilleoga: a sparkling Irish folk trio that transports tradition to the present day by giving it a personal and modern touch."
+    text: "Simone, Beatrice, and Simone, despite their young age, are already accomplished musicians
+in diverse musical projects that range from classical music to folk, with rambles into
+contemporary genres. With Duilleoga, they have decided to combine their experiences and
+artistic sensibilities to create a unique project: a trio that blends tradition and modernity
+into a fresh and captivating offering."
     img: "assets/img/duilleoga.jpg"
     link:
       text: "More info"
@@ -48,3 +52,18 @@ projects:
     link:
       text: "More info"
       url: "https://bardsfromyesterday.weebly.com/"
+
+gear:
+  featured:
+    title: "Gear"
+    items:
+      # - text: "D flute from Pol Jezequel"
+      # - text: "F, Eb, D, C flutes from Geert Lejeune"
+      - text: "D, C flutes from Geert Lejeune"
+      - text: "Bb flute from Michael Grinter"
+      - text: "Eb, D, C, F, Low D whistles from Colin Goldie"
+      - text: "Eb, D, C, Bb, A whistles from Lir"
+      - text: "Concert pitch Uilleann pipes chanter from Andrea Morandini"
+      - text: "Concert pitch Uilleann pipes full set from Fred Morrison"
+      - text: "Wireless microphone from Cloduvocal"
+      # - text: "Custom in ear monitors from NTS Audio"
