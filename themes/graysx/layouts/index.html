@@ -118,7 +118,10 @@
                     <div class="col-xl-12 col-lg-12">
                         <div class="featured-text text-center text-lg-left">
                             <h4>{{ .featured.title }}</h4>
-                            <p class="text-black-50 mb-0">{{ range .featured.items }} <p>{{ .text }}</p> {{ end }}</p>
+                            <p class="text-black-50 mb-0">{{ range .featured.items }} <p>{{ .text }}
+                                {{ if .url }}
+                                (<a href={{ .url }} target="_blank">link</a>)</p>{{ end }}</p>
+                                {{ end }}
                         </div>
                     </div>
                 </div>
