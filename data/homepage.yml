@@ -72,5 +72,5 @@ gear:
         url: "https://fredmorrison.com/"
       - text: "Wireless microphone from Cloudvocal"
         url: "https://cloudvocal.com/"
-      # - text: "Custom in ear monitors from NTS Audio"
-      #   url: "https://www.ntsaudio.it/"
+      - text: "Custom in ear monitors from NTS Audio"
+        url: "https://www.ntsaudio.it/"
