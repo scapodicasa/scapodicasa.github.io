@@ -57,7 +57,7 @@ gear:
   featured:
     title: "Gear"
     items:
-      # - text: "D flute from Pol Jezequel"
+      - text: "D flute from Pol Jezequel"
       - text: "F, Eb, D, C flutes from Geert Lejeune"
         url: "http://www.geertlejeune.com/"
       - text: "Bb flute from Michael Grinter"
